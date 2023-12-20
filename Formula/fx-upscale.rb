@@ -1,8 +1,8 @@
 class FxUpscale < Formula
   desc ""
   homepage "https://github.com/Finnvoor/fx-upscale"
-  url "https://github.com/Finnvoor/fx-upscale/releases/download/1.0.2/1.0.2.tar.gz"
-  sha256 "2b47f0517c7e8a9ecaecf39370fccb6a033b09a8e16594e725580a7b8fe0f3cd"
+  url "https://github.com/finnvoor/fx-upscale/releases/download/1.0.3/1.0.3.tar.gz"
+  sha256 "072acc60208bc42d40bad7467d3b200fa1529bfc8f5d0d490da753a0626b8198"
   license "CC0-1.0"
   
   def install
