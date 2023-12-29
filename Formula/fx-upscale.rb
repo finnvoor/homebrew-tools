@@ -1,8 +1,8 @@
 class FxUpscale < Formula
   desc "Metal-powered video upscaling"
   homepage "https://github.com/Finnvoor/fx-upscale"
-  url "https://github.com/finnvoor/fx-upscale/releases/download/1.0.7/1.0.7.tar.gz"
-  sha256 "e99881d6c9003736e1c48d3a29d425e8d1eb6e0631046c5ddb3b734af1669f3d"
+  url "https://github.com/finnvoor/fx-upscale/releases/download/1.0.8/1.0.8.tar.gz"
+  sha256 "a236b574d07c986c3727540b0f3f107f3119bc1547e291d238d49a8514d5607a"
   license "CC0-1.0"
 
   def install
