@@ -8,6 +8,7 @@ class Yap < Formula
   depends_on macos: :tahoe
 
   def install
+    man1.install "man/yap.1"
     bin.install "yap"
   end
 end
