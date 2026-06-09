@@ -5,7 +5,9 @@ class Yap < Formula
   sha256 "112eaef4e5b658cd570557c2ae1bd9955bdcd39cc8bc216be4ea24cf8a5d2fc3"
   license "CC0-1.0"
   depends_on :macos
-  depends_on macos: :tahoe
+  on_macos do
+    depends_on macos: :tahoe
+  end
 
   def install
     bin.install "yap"
