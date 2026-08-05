@@ -10,6 +10,7 @@ class Yap < Formula
   end
 
   def install
+    man1.install "man/yap.1"
     bin.install "yap"
   end
 end
