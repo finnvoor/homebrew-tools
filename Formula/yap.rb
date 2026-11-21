@@ -1,8 +1,8 @@
 class Yap < Formula
   desc "CLI for on-device speech transcription using Speech.framework"
   homepage "https://github.com/Finnvoor/yap"
-  url "https://github.com/finnvoor/yap/releases/download/1.2.1/yap-1.2.1.tar.gz"
-  sha256 "5d7cef0c5d5de12902ac3d14d555ac8f6090812bedb57ccfd270829d8dc23e70"
+  url "https://github.com/finnvoor/yap/releases/download/1.2.2/yap-1.2.2.tar.gz"
+  sha256 "34703d6d5e1bf1c5d7f135fab5bf9e1ed585dc96d80facc65367618a89407074"
   license "CC0-1.0"
   depends_on :macos
   on_macos do
